@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/dcornelius4/solo-tcp#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "eslint": "^5.16.0"
   }
 }

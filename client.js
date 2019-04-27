@@ -10,12 +10,13 @@ const rl = readline.createInterface({
 
 const client = net.createConnection(7890, 'localhost', () => {
   console.log('I am connected');
-  
+
   rl.prompt();
   rl.on('line', line => {
     client.write(line);
     rl.prompt();
   });
+  client.write('Hey, I am a client');
 });
 
 client.on('data', data => {

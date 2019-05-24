@@ -4,7 +4,6 @@
   "description": "",
   "main": "readStream.js",
   "scripts": {
-    "test": "jest --verbose --passWithNoTests"
   },
   "repository": {
     "type": "git",
